@@ -4,31 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>bioSite - About</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>About Me</h1>
+    <div class="banner">
+      <h1>About Me</h1>
+    </div>
     <nav>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About</a> |
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
       <a href="hobbies.html">Hobbies</a>
     </nav>
   </header>
 
   <main>
-    <h2>My Story</h2>
-    <p>I’m a computer science student who enjoys learning about web development, design, and programming.</p>
+    <section class="content-box">
+      <h2>My Story</h2>
+      <p>I’m a computer science student who enjoys learning about web development, design, and programming. I love solving problems and creating projects that challenge me to grow my technical skills. Whether I’m building websites, experimenting with new programming languages, or working on group projects, I’m always eager to learn something new. My goal is to continue improving my coding abilities while developing creative, efficient solutions that make technology more useful and enjoyable for others.</p>
 
-    <figure>
-      <img src="images/pcsetup.jpg" alt="Coding on my PC" width="400">
-      <figcaption>Working on web projects helps me grow my skills every day.</figcaption>
-    </figure>
+      <figure>
+        <img src="images/pcsetup.jpg" alt="Coding on my PC" class="main-img">
+        <figcaption>Working on web projects helps me grow my skills every day.</figcaption>
+      </figure>
 
-    <p>To explore more about HTML and CSS, check out 
-      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>.
-    </p>
+      <p>To explore more about HTML and CSS, check out 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>.
+      </p>
+    </section>
   </main>
 
   <footer>

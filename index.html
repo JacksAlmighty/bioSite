@@ -4,31 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>bioSite - Home</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>Welcome to My bioSite</h1>
+    <div class="banner">
+      <h1>Welcome to My bioSite</h1>
+    </div>
     <nav>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About</a> |
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
       <a href="hobbies.html">Hobbies</a>
     </nav>
   </header>
 
   <main>
-    <h2>Welcome!</h2>
-    <p>Hi, my name is Jackson Webster. This website is part of my CSD 340 Web Development class. It’s a small project to share a bit about me and my hobbies while practicing HTML and CSS.</p>
+    <section class="content-box">
+      <h2>Welcome!</h2>
+      <p>Hi, my name is <strong>Jackson Webster</strong>. This website is part of my CSD 340 Web Development class. It’s a small project to share a bit about me and my hobbies while practicing HTML and CSS. Through this project, I’m learning how to design and structure web pages, use styling to make them visually appealing, and apply coding techniques to make the site more interactive. It’s also a great way to express my personality and interests while improving my understanding of how websites are built and function behind the scenes.</p>
 
-    <figure>
-      <img src="images/welcome.jpg" alt="Welcome image" width="400">
-      <figcaption>Building creative websites, one line of code at a time.</figcaption>
-    </figure>
+      <figure>
+        <img src="images/welcome.jpg" alt="Welcome image" class="main-img">
+        <figcaption>Building creative websites, one line of code at a time.</figcaption>
+      </figure>
 
-    <p>Learn more about web development at 
-      <a href="https://www.w3.org/" target="_blank">W3C</a>.
-    </p>
+      <p>Learn about web development at 
+        <a href="https://www.w3.org/" target="_blank">W3C</a>.
+      </p>
+    </section>
   </main>
 
   <footer>
